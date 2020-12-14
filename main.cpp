@@ -77,43 +77,6 @@ int main(void) {
         decompressor(inputFile);
     }
 
-//    do{
-//
-//    } while ();
-
-//    string instructions;
-//    cout<<"Enter instructions as follows:"<<endl
-//        <<"Example: -c sampletext.txt compressed.txt"<<endl
-//        <<"mode (-c | -dc) inputfilename.txt outputfilename.txt"<<endl<<endl;
-//    getline(cin, instructions);
-//
-//    // Returns first token
-//    char *token = strtok(&instructions[0], " ");
-//
-//    // Keep printing tokens while one of the
-//    // delimiters present in str[].
-//    while (token != nullptr)
-//    {
-//        printf("%s\n", token);
-//        token = strtok(nullptr, " ");
-//    }
-
-
-//    char* inputFile = "../testFiles/bible.txt";
-//    char* inputFile = "../input.huf";
-
-
-//    char* inputFile = "../input-bigsize-text.huf";
-//    char* inputFile = "../input.huf";
-
-
-
-//    compressor(inputFile);
-
-//    decompressor(inputFile);
-
-//    int statusdecomp = decompressor("../input.huf");
-//    cout<<statusdecomp<<endl;
 }
 
 /*------------------------------------------------Compressor----------------------------------------------------------*/
